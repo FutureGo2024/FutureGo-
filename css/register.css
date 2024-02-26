@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    border: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    background:rgba(9, 190, 250, 0.9);
+
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.header h2
+{
+    position: absolute;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    padding: 30px 0px;
+    text-wrap: nowrap;
+    
+}
+
+.register-box{
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+
+}
+.box{
+    
+    /* margin-left: 17px; */
+    margin-top: 30px;
+    display: flex;
+    /* gap: 30px; */
+    flex-wrap: wrap;
+}
+.box .div
+{
+    display: grid;
+    padding: 10px 39.3px;
+}
+.box .div input
+{
+    width: 300px;
+    padding: 5px;
+}
+
+.u-boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.u-boxes div
+{
+    display: grid;
+    padding: 10px 30px;
+}
+.u-boxes div input
+{
+    width: 300px;
+    padding: 5px;
+}
+select
+{
+    width: 300px;
+    padding: 7px;
+}
+
+.login{
+    margin: auto;
+    text-align: center;
+}

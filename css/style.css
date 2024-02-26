@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    border: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #f8f9fa !important;
+    box-shadow: 0.5px 0.5px 5px 5px #00000021;
+
+    .c-w
+    {
+        width: 90%;
+    }
+}
+.header div
+{
+    display: inline-block;
+}
+
+.head-1{
+    
+
+}
+
+.h-1{
+    
+    font-size: xx-large !important;
+    font-weight: bold;
+    color: rgba(9, 190, 250, 0.9) !important;
+
+}
+
+.menus{
+    display: flex;
+    padding: 0px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    font-size: medium;
+    font-family: sans-serif;
+    
+}
+
+.menu a{
+
+    padding: 8px 16px !important;   
+    margin: 0px 15px;
+    color: black !important;
+    /* list-style: none; */
+    border-bottom: 3px solid  transparent !important;
+}
+
+.menu a:hover{
+    color: rgba(9, 190, 250, 0.9) !important;
+    border-bottom-color: rgba(9, 190, 250, 0.9) !important;
+    text-decoration: none !important;
+
+}
+
+
+.box-1{     
+}
+
+
+.button-1 {
+    
+    
+    padding: 7px 30px;
+    border-radius: 30px;
+    background-color:rgba(9, 190, 250, 0.9);
+    text-decoration: none !important;
+    color: white;
+    border: 3px solid transparent;
+
+}
+
+.button-1:hover{
+    border-color: rgba(9, 190, 250);
+    background-color: white;
+    color: rgba(9, 190, 250, 0.9);
+}
+
+
+.slider{
+    
+}
+
+.carousel-item{
+    max-height: 600px;
+}

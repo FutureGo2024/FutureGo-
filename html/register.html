@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../bootstrap/assests/css/bootstrap.min.css">
+    <title>Register Form</title>
+</head>
+<body>
+
+   <form action="index.html">
+    <div class="register-box div">
+        <div class="header">
+            <h2>STUDENT REGISTERATION FORM :)</h2>
+        </div>
+        <div class="box">
+            <div class="first-name-box div">
+                <label for="f-name">First Name</label>
+                <input type="text" name="f-name" id="f-name" required/>
+            </div>
+            <div class="last-name-box div">
+                <label for="l-name">Last Name</label>
+                <input type="text" name="l-name" id="l-name" required/>
+            </div>
+            <div class="dob-box div">
+                <label for="dob">DOB</label>
+                <input type="date" name="dob" id="" required/>
+            </div>
+            <div class="mail-box div">
+                <label for="mail">User E-mail</label>
+                <input type="email" name="mail" id="mail" required />
+            </div>
+            <div class="gender-box div">
+                <label for="gen">Gender</label>
+                <select name="gen" id="" class="gender-selecter"required>
+                    <option value="-1">-- select gender --</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Other</option>
+                </select>
+            </div>
+            <div class="ph-no-box div">
+                <label for="ph-no">Phone Number</label>
+                <input type="number" name="ph-no" id="ph-no" required/>
+            </div>
+            <div class="nation-box div">
+                <label for="nat">Nationality</label>
+                <input type="text" name="nat" id="nat" value="Indian" readonly/>
+            </div>
+            <div class="state-box div">
+                <label for="state">State</label>
+                <select name="state" id="" class="state-selecter" required>
+                <option value="">--select state--</option>
+                </select>
+            </div><div class="district-box div">
+                <label for="dis">District</label>
+                <select name="dis" id="" class="dis-selecter" required>
+                    <option value="-1">-- select District --</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Cuddalore">Cuddalore</option>
+                    <option value="Ariyalur">Ariyalur</option>
+                </select>
+            </div>
+            <div class="pincode-box div">
+                <label for="pincode">Pincode</label>
+                <input type="number" name="pincode" id="pincode" required/>
+            </div>
+            <hr class="" style="background-color: rgba(0, 0, 0, 0.419); width: 95%; margin: 30px auto 10px auto; ">
+            <div class="u-boxes">
+            <div class="username-box">
+                <label for="u-name">Username</label>
+                <input type="text" name="u-name" id="u-name" required/>
+            </div>
+            <div class="pass-box">
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass" required/>
+            </div>
+            <div class="confirm-pass-box">
+                <label for="c-pass">Confirm Password</label>
+                <input type="password" name="c-pass" id="c-pass" required/>
+            </div>
+            </div>
+            <div class="submit-but div">
+                <input type="submit" value="Submit">
+            </div>
+            <div class="clear-but div">
+                <input type="reset" value="Clear">
+            </div>
+
+            
+            <div class="login div">
+                <span class="">Already have an account?<span><a href="log.html"> Login</a></span></span>
+            </div>
+        </div>
+       
+    </div>
+   </form>
+</body>
+</html>

@@ -1,0 +1,141 @@
+*{
+    border: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%); 
+   width: 95%;
+
+}
+
+.left-cont{
+    text-align: center;
+
+    b{
+        color: rgba(9, 190, 250, 0.9);
+    }
+}
+
+.right-cont{
+    position: relative;
+    
+    }
+
+.top-cont{
+
+   position: absolute;
+   top: 10%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   display: flex;
+   gap: 50px;
+   
+}
+
+.obj{
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+}
+
+.obj:hover{
+    color: rgba(9, 190, 250);
+    background-color: rgba(9, 190, 250, 0.1);
+    text-decoration: none !important;
+
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    gap: 10px;
+}
+
+form div{
+    width: 400px;
+}
+
+form input{
+    border: none;
+}
+
+
+.log-logo-box{
+   
+
+}
+
+.user-div{
+
+}
+
+.user-div input{
+    padding: 10px;
+
+}
+
+.pass-div{
+    position: relative;
+
+    i
+    {
+        color: rgba(0, 0, 0, 0.492);
+    }
+    i:hover
+    {
+        color: rgba(0, 0, 0);
+    }
+}
+.pass-div input {
+    padding: 10px 45px 10px 10px;
+
+}
+
+.pass-div i {
+position: absolute;
+right: 0%;
+font-size: 20px;
+top:50%;
+transform: translate(-50%, -50%);
+}
+
+.divided{
+
+}
+
+.forget-pass{
+
+}
+
+.continue-btn{
+    
+    input
+    {
+        background-color:rgba(9, 190, 250, 0.9);
+        text-decoration: none !important;
+        color: white;
+        border: 3px solid transparent;
+    }
+    input:hover{
+        border-color: rgba(9, 190, 250);
+        background-color: white;
+        color: rgba(9, 190, 250, 0.9);
+    }
+    
+}
+
+
+.register-btn{
+    a
+    {
+    text-decoration: none !important;
+    }
+}
