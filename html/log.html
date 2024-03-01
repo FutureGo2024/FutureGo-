@@ -22,17 +22,17 @@
                 <a class="obj rounded" href="">Students</a>
                 <a class="obj rounded"href="">Admin</a>
             </div>
-             <form action="index.html">
+             <form id="form">
                 <div class="log-logo-box">
                 <h1>Log In</h1>
                 </div>
             
             <div class="user-div">
-                <input type="text" placeholder="Username" class="w-100 rounded shadow-sm" minlength="6" maxlength="15" required/>
+                <input type="text" placeholder="Username" id="u_name" class="w-100 rounded shadow-sm" minlength="6" maxlength="15" required/>
             </div>
 
             <div class="pass-div">
-                <input type="password" placeholder="password" class="w-100 rounded shadow-sm" id="pass" minlength="6" maxlength="10" required/> 
+                <input type="password" placeholder="password" id="pass" class="w-100 rounded shadow-sm" id="pass" minlength="6" maxlength="10" required/> 
                 <i class="fa-solid fa-eye open-eye" id="open-eye" onclick="pass()"></i> <i style="display:none" class= "fa-solid fa-eye-slash close-eye" id="close-eye" onclick="pass()"></i>
             </div>
 
@@ -42,7 +42,7 @@
 
            <div class="continue-btn">
             <!-- <a  class="" href="">Continue</a> -->
-            <input type="submit" class="d-inline-block w-100 text-center py-2 rounded" value="Continue">
+            <input type="submit" class="d-inline-block w-100 text-center py-2 rounded" onclick="logSub()" value="Continue">
            </div>
 
            <div class="register-btn">

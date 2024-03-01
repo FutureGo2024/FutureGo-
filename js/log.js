@@ -21,3 +21,27 @@ function pass()
 
     }
 }
+
+
+function logSub() {
+
+    
+    var u_name = document.getElementById("u_name");
+    var pass = document.getElementById("pass");
+    var form = document.getElementById("form");
+
+    
+    var c_u_name = localStorage.getItem('uname');
+    var c_pass = localStorage.getItem('pass');
+
+    if (u_name.value == c_u_name && pass.value == c_pass) {
+        alert('Success');
+        form.action = '../index.html';
+    }
+    else
+    {
+        alert('username and pass are wrong');
+    }
+    
+    
+}
